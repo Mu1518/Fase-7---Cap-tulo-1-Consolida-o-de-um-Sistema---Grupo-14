@@ -29,18 +29,19 @@
 ## 📜 Descrição
 
 O projeto "A Eletônica de uma IA" proposta na terceira fase do Curso de Inteligência Artificial da FIAP tem como objetivo desenvolver um sistema inteligente de monitoramento agricola por sensores para coleta de dados ambientais, alem de detecção de movimentos, para em um cultivo de tomate.
-O sistema  visa monitorar temperatura, umidade, nível de água e intensidade de luz com o intuito de otimizar o uso de recursos e garantir condições ideais para o crescimento das plantas. Além disso, ele é capaz de detectar movimentos na área, proporcionando uma camada adicional de segurança.
+O sistema  visa monitorar temperatura (sensor DHT22), umidade e nível de água (sensorHC-SR04), intensidade de luz (sensor LDR) e sensor de movimento PIR, otimizando a tomada de decisões no uso dos recursos, além de acrescentar uma camada de segurança, ao permitir a detecção de animais e/ou pessoas nas áreas cobertas pelo sensor.
 
 ## 💻Tecnologias utilizadas
 
 ![arduino](https://img.shields.io/badge/Arduino-00979D?style=for-the-badge&logo=Arduino&logoColor=white)
-
 ![CPP](https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)
-
 ![JSON](https://img.shields.io/badge/json-5E5C5C?style=for-the-badge&logo=json&logoColor=white)
 
 
-Etapas do projeto:
+### ![microesp](https://github.com/user-attachments/assets/815e3951-ddec-4284-af49-368e83202b44)Componentes do Modelo:
+
+
+Componentes do Modelo:
 
  	* Análise dos dados e download das planilhas do site da CONAB.
 	 
