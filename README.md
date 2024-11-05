@@ -7,7 +7,8 @@
 <br>
 
 # Nome do projeto - A Eletrônica de uma IA
-![wokwi](https://github.com/IolandaManzali/ExplorandoSQL/blob/main/assets/gitgif.gif)
+![wokwi](![image](https://github.com/user-attachments/assets/9121d5b7-ec33-4f53-8622-e66fc293b60c)
+
 
 
 ## Nome do grupo - Grupo 06
