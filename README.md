@@ -11,7 +11,7 @@
 
 
 
-## Nome do grupo - Grupo 06
+## Nome do grupo - Grupo 08
 
 ## 👨‍🎓 Integrantes: 
 - <a href="https://www.linkedin.com/in/hilmar-marques-358672161">Hilmar Gomes Marques da Silva</a>
@@ -28,13 +28,17 @@
 
 ## 📜 Descrição
 
-Para essa atividade foi criado um Modelo Entidade Relacionamento baseado em dados disponibilizados pelo site da CONAB relacionados à série histórica de safras cafeeiras entre 2014 a 2024. 
+O projeto "A Eletônica de uma IA" proposta na terceira fase do Curso de Inteligência Artificial da FIAP tem como objetivo desenvolver um sistema inteligente de monitoramento agricola por sensores para coleta de dados ambientais, alem de detecção de movimentos, para em um cultivo de tomate.
+O sistema  visa monitorar temperatura, umidade, nível de água e intensidade de luz com o intuito de otimizar o uso de recursos e garantir condições ideais para o crescimento das plantas. Além disso, ele é capaz de detectar movimentos na área, proporcionando uma camada adicional de segurança.
 
-O café, além de fazer parte da história e da cultura brasileira, ocupa lugar de destaque nos mercados nacional e internacional.
+## 💻Tecnologias utilizadas
 
-Foram selecionados os grãos do tipo Arábica e Conillon pelas suas caracteristicas peculiares de plantio e de consumo. 
+![arduino](https://img.shields.io/badge/Arduino-00979D?style=for-the-badge&logo=Arduino&logoColor=white)
 
-Para o ano corrente os valores são estimativos, levando-se em conta o mês de setembro de 2024.
+![CPP](https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)
+
+![JSON](https://img.shields.io/badge/json-5E5C5C?style=for-the-badge&logo=json&logoColor=white)
+
 
 Etapas do projeto:
 
