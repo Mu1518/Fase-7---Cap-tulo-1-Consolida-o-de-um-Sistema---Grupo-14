@@ -44,7 +44,7 @@ O sistema  visa monitorar temperatura e umidade (sensor DHT22), nível de água 
 #### Hardware
 
 
- 	* ESP32: Microcontrolador wi-fi e Bluetooth, ideal para aplicações de IoT.
+	* ESP32: Microcontrolador wi-fi e Bluetooth, ideal para aplicações de IoT.
 	 
 	* DHT22: sensor de temperatura e umidade 
 	
@@ -56,7 +56,7 @@ O sistema  visa monitorar temperatura e umidade (sensor DHT22), nível de água 
 
 	* LCD I2C (16x2): Display para exibir as informaçoes do sistema
 
- 	* Jumpers e protoboard para conexões
+	* Jumpers e protoboard para conexões
 
 #### Software
 
@@ -64,11 +64,11 @@ O sistema  visa monitorar temperatura e umidade (sensor DHT22), nível de água 
 
   	*Bibliotecas:
    		
-     		DHT (Adafruit)
+     		** DHT (Adafruit)
 
-     		Ultrasonic
+     		** Ultrasonic
 
-       		LiquidCrystal_I2C
+       		** LiquidCrystal_I2C
 
 
 ### Configuração do Projeto no Wokwi
@@ -85,21 +85,21 @@ O Wokwi é uma plataforma de simulação que permite rodar projetos com microcon
   
 	* Adicione os componentes necessários no Wokwi:
  
-		DHT22, HC-SR04, PIR, LDR e LCD I2C
+		** DHT22, HC-SR04, PIR, LDR e LCD I2C
   
 	* Conecte os componentes ao ESP32 conforme o esquema a seguir:
  
-		DHT22: Conectar ao pino GPIO16 do ESP32.
+		** DHT22: Conectar ao pino GPIO16 do ESP32.
   
-		HC-SR04: Trigger ao pino GPIO4 e Echo ao pino GPIO5.
+		** HC-SR04: Trigger ao pino GPIO4 e Echo ao pino GPIO5.
   
-		PIR: Conectar ao pino GPIO13.
+		** PIR: Conectar ao pino GPIO13.
   
-		LDR: Conectar ao pino GPIO12 (utilize um resistor pull-down para leituras estáveis).
+		** LDR: Conectar ao pino GPIO12 (utilize um resistor pull-down para leituras estáveis).
   
-		LCD I2C: Conectar nos pinos I2C do ESP32 (GPIO21 - SDA e GPIO22 - SCL).
+		** LCD I2C: Conectar nos pinos I2C do ESP32 (GPIO21 - SDA e GPIO22 - SCL).
   
-		Clique em "Start Simulation" para iniciar a simulação do projeto.
+		** Clique em "Start Simulation" para iniciar a simulação do projeto.
   
     
 ## 📁 Estrutura de pastas
