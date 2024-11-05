@@ -38,12 +38,11 @@ O sistema  visa monitorar temperatura (sensor DHT22), umidade e nível de água 
 ![JSON](https://img.shields.io/badge/json-5E5C5C?style=for-the-badge&logo=json&logoColor=white)
 
 
-### ![microesp](https://github.com/user-attachments/assets/815e3951-ddec-4284-af49-368e83202b44)Componentes do Modelo:
+### Componentes do Modelo
+![microesp](https://github.com/user-attachments/assets/815e3951-ddec-4284-af49-368e83202b44)
 
 
-Componentes do Modelo:
-
- 	* Análise dos dados e download das planilhas do site da CONAB.
+ 	* ESP32: Microcontrolador wi-fi e Bluetooth, ideal para aplicações de IoT.
 	 
 	* Criação do DER (Diagrama Entidade Relacionamento) utilizando o SQL Data Modeler 
 	
