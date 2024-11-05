@@ -6,8 +6,8 @@
 
 <br>
 
-# Nome do projeto - Explorando SQL e Tipos de Dados Oracle
-![gif](https://github.com/IolandaManzali/ExplorandoSQL/blob/main/assets/gitgif.gif)
+# Nome do projeto - A Eletrônica de uma IA
+![wokwi](https://github.com/IolandaManzali/ExplorandoSQL/blob/main/assets/gitgif.gif)
 
 
 ## Nome do grupo - Grupo 06
