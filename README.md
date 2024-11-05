@@ -162,7 +162,7 @@ Dentre os arquivos e pastas presentes na raiz do projeto, definem-se:
    	** Verifique o Display LCD para visualizar as informações em tempo real
 
 
-   ![gifesp32]()
+   ![gifesp32](https://github.com/IolandaManzali/WOKWI_fase3/blob/main/assets/2024-11-0515-37-49-ezgif.com-video-to-gif-converter.gif)
 
 
 ## 🗃 Histórico de lançamentos
