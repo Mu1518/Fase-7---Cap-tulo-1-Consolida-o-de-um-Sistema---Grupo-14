@@ -1,84 +1,148 @@
-# Sistema Inteligente de Monitoramento Agrícola
+# FIAP - Faculdade de Informática e Administração Paulista
 
-## Objetivo do Projeto
+<p align="center">
+<a href= "https://www.fiap.com.br/"><img src="assets/logo-fiap.png" alt="FIAP - Faculdade de Informática e Admnistração Paulista" border="0" width=40% height=40%></a>
+</p>
 
-O projeto tem como objetivo desenvolver um sistema inteligente de monitoramento agrícola que utiliza sensores para coletar dados ambientais em uma plantação de tomates. O sistema monitora a temperatura, umidade, nível de água e intensidade de luz, com o intuito de otimizar o uso de recursos e garantir condições ideais para o crescimento das plantas. Além disso, ele é capaz de detectar movimentos na área, proporcionando uma camada adicional de segurança.
+<br>
 
-## Componentes Utilizados
-
-- **ESP32**: Microcontrolador com Wi-Fi e Bluetooth, ideal para aplicações de IoT.
-- **DHT22**: Sensor de temperatura e umidade.
-- **HC-SR04**: Sensor ultrassônico para medir o nível de água.
-- **PIR**: Sensor de movimento para detectar movimento na área monitorada.
-- **LDR**: Sensor de luz (resistor dependente de luz) para medir a intensidade da luz.
-- **LCD I2C (16x2)**: Display para exibir informações do sistema.
-
-## Configuração do Projeto no Wokwi
-Wokwi é uma plataforma de simulação que permite rodar projetos com microcontroladores e sensores sem hardware físico. Para simular o projeto:
-
-Acesse wokwi.com.
-- Crie um novo projeto ESP32.
-- Copie e cole o código do projeto na área de código do Wokwi.
-- Adicione os componentes necessários no Wokwi:
-   - DHT22, HC-SR04, PIR, LDR e LCD I2C.
-- Conecte os componentes ao ESP32 conforme o esquema a seguir:
-  - DHT22: Conectar ao pino GPIO16 do ESP32.
-- HC-SR04: Trigger ao pino GPIO4 e Echo ao pino GPIO5.
-- PIR: Conectar ao pino GPIO13.
-- LDR: Conectar ao pino GPIO12 (utilize um resistor pull-down para leituras estáveis).
-- LCD I2C: Conectar nos pinos I2C do ESP32 (GPIO21 - SDA e GPIO22 - SCL).
-- Clique em "Start Simulation" para iniciar a simulação do projeto.
-
-## Funcionamento
-
-1. Leitura dos Sensores: O sistema realiza leituras periódicas dos sensores para obter dados de temperatura, umidade, nível de água e intensidade de luz.
-2. Controle de Irrigação: Com base nas leituras, o sistema verifica se as condições estão dentro da faixa ideal para o cultivo de tomates. Se as condições forem favoráveis, a irrigação é ativada.
-3. Detecção de Movimento: O sistema monitora a presença de movimento na área. Caso um movimento seja detectado, um alerta é gerado e exibido no display LCD.
-4. Exibição de Dados: As informações coletadas são exibidas no monitor serial para monitoramento em tempo real e também são mostradas no display LCD.
-
-## Configuração
-
-### Requisitos
-
-- **Hardware**:
-  - ESP32
-  - DHT22
-  - HC-SR04
-  - PIR
-  - LDR
-  - LCD I2C
-  - Jumpers e protoboard para conexões
-
-- **Software**:
-  - Arduino IDE com suporte para ESP32
-  - Bibliotecas necessárias:
-    - DHT (Adafruit)
-    - Ultrasonic
-    - LiquidCrystal_I2C
-
-### Instruções
- Este projeto requer a Arduino IDE com suporte para o ESP32, além de bibliotecas específicas para os sensores e o display LCD. Para configurar o ambiente local:
-1. **Configuração do Ambiente**:
-   - Instale a Arduino IDE.
-   - Adicione o suporte para o ESP32 na IDE.
-   - Instale as bibliotecas necessárias através do Gerenciador de Bibliotecas.
-
-2. **Conexões**:
-   - Conecte os sensores e o LCD ao ESP32 conforme a tabela abaixo:
-     - **DHT22**: Pino 16
-     - **HC-SR04**: Trigger no pino 4 e Echo no pino 5
-     - **PIR**: Pino 13
-     - **LDR**: Pino 12 (ADC)
-     - **LCD I2C**: Pinos I2C (GND, VCC, SDA, SCL)
-
-3. **Carregar o Código**:
-   - Copie o código fornecido para o arquivo de esboço da Arduino IDE.
-   - Conecte o ESP32 ao computador e selecione a porta correta.
-   - Carregue o código para o ESP32.
-
-4. **Monitoramento**:
-   - Abra o Monitor Serial da Arduino IDE para visualizar as leituras dos sensores.
-   - Verifique o display LCD para visualizar as informações em tempo real.
+# Nome do projeto - Explorando SQL e Tipos de Dados Oracle
+![gif](https://github.com/IolandaManzali/ExplorandoSQL/blob/main/assets/gitgif.gif)
 
 
-![Captura de tela 2024-11-04 222804](https://github.com/user-attachments/assets/3e156628-1ad9-41ee-9c1a-3e0da86fadcf)
+## Nome do grupo - Grupo 06
+
+## 👨‍🎓 Integrantes: 
+- <a href="https://www.linkedin.com/in/hilmar-marques-358672161">Hilmar Gomes Marques da Silva</a>
+- <a href="https://www.linkedin.com/in/iolanda-helena-fabbrini-manzali-de-oliveira-14ab8ab0">Iolanda Helena Fabbrini Manzali de Oliveira</a>
+- <a href="https://www.linkedin.com/company/inova-fusca">Murilo Carone Nasser</a> 
+- <a href="https://www.linkedin.com/in/pedro-eduardo-soares-de-sousa-439552309">Pedro Eduardo Soares de Sousa</a> 
+- <a href="https://www.linkedin.com/company/inova-fusca">Yago Brendon Iama</a>
+
+## 👩‍🏫 Professores:
+### Tutor(a) 
+- <a href="https://www.linkedin.com/in/lucas-gomes-moreira-15a8452a">Lucas Gomes Moreira</a>
+### Coordenador(a)
+- <a href="https://www.linkedin.com/company/inova-fusca">Andre Godoi Chaviato</a>
+
+## 📜 Descrição
+
+Para essa atividade foi criado um Modelo Entidade Relacionamento baseado em dados disponibilizados pelo site da CONAB relacionados à série histórica de safras cafeeiras entre 2014 a 2024. 
+
+O café, além de fazer parte da história e da cultura brasileira, ocupa lugar de destaque nos mercados nacional e internacional.
+
+Foram selecionados os grãos do tipo Arábica e Conillon pelas suas caracteristicas peculiares de plantio e de consumo. 
+
+Para o ano corrente os valores são estimativos, levando-se em conta o mês de setembro de 2024.
+
+Etapas do projeto:
+
+ 	* Análise dos dados e download das planilhas do site da CONAB.
+	 
+	* Criação do DER (Diagrama Entidade Relacionamento) utilizando o SQL Data Modeler 
+	
+	* Criação do MER e aplicadas as regras de design e normatização com o SQL Data Modeler 
+
+	* Exportação do código gerado em .ddl para utilização no SQL Developer 
+
+	* Criação do Banco de Dados pelo SQL DEveloper Oracle
+
+	* Criação de um Dicionario de Dados em Excel, descrevendo as Entidades/Tabelas, seus tipos de dados e chaves.
+
+	* Utilização do código criado para realização de consultas relevantes sobre os dados coletados.     
+  
+   
+## 📁 Estrutura de pastas
+
+Dentre os arquivos e pastas presentes na raiz do projeto, definem-se:
+
+- <b>.github</b>: init
+- <b>assets</b>: imagens em png do MER e DER
+
+- <b>config</b>: documentos FIAP Fase3
+
+- <b>document</b>: update tabelas CONAB.
+
+- <b>scripts</b>: update arquivo com o backup do codigo em SQL.
+
+- <b>src</b>: update do código.
+
+- <b>README.md</b>: init
+
+  
+## 🔧 Como executar o código
+
+ * Acessar o SQL Developer, conectar-se a um banco de dados e abrir a Query
+  	
+ * Acessar o conteudo das tabelas através do comando:
+
+    	SELECT * FROM nome_da_tabela
+
+ * Utilizar os dados das tabelas para gerar analise de dados sobre produção, produtividade e area plantada conforme os exemplos a seguir:
+
+ * Análises por cultura e região 	
+	
+ * ranking de produção por região (em ordem descrescente)
+	
+		SELECT t2.nm_regiao, t1.nm_cultura, SUM(t3.vl_producao) AS total_producao
+ 		FROM t_cultura t1
+		JOIN t_relatorio_cultura t3 ON t1.id_cultura = t3.id_cultura
+		JOIN t_regiao t2 ON t2.cd_regiao = t3.cd_regiao
+		GROUP BY t2.nm_regiao, t1.nm_cultura
+		ORDER BY t2.nm_regiao, total_producao DESC;
+
+ * ranking de produtividade por tipo de grão por ano, (em ordem descrescente)
+
+   		SELECT t2.nm_regiao, AVG(t3.vl_produtividade) AS produtividade_media
+		FROM t_cultura t1
+		JOIN t_relatorio_cultura t3 ON t1.id_cultura = t3.id_cultura
+		JOIN t_regiao t2 ON t2.cd_regiao = t3.cd_regiao
+		WHERE t1.nm_cultura = 'tipo_de_grao' AND t1.id_ano_safra = ano_da_safra
+		GROUP BY t2.nm_regiao
+		ORDER BY produtividade_media DESC;
+    	
+	
+ * comparação das produtividades médias por tipo de grão por região
+
+	  	SELECT t2.nm_regiao,
+       		AVG(CASE WHEN t1.nm_cultura = 'ARABICA' THEN t3.vl_produtividade END) AS produtividade_arabica,
+       		AVG(CASE WHEN t1.nm_cultura = 'CONILLON' THEN t3.vl_produtividade END) AS produtividade_conillon
+		FROM t_cultura t1
+		JOIN t_relatorio_cultura t3 ON t1.id_cultura = t3.id_cultura
+		JOIN t_regiao t2 ON t2.cd_regiao = t3.cd_regiao
+		GROUP BY t2.nm_regiao;
+
+ * analise da producao do café por tipo de grão entre 2014 e 2024
+
+		SELECT t1.id_ano_safra, SUM(t3.vl_producao) AS total_producao_arabica
+		FROM t_cultura t1
+		JOIN t_relatorio_cultura t3 ON t1.id_cultura = t3.id_cultura
+		WHERE t1.nm_cultura = 'Ttipo_de_grao'
+		GROUP BY t1.id_ano_safra
+		ORDER BY t1.id_ano_safra;
+
+
+
+## 🗃 Histórico de lançamentos
+
+* 0.5.0 - XX/XX/2024
+  
+* 0.4.0 - XX/XX/2024
+
+* 0.3.0 - XX/XX/2024
+  
+* 0.2.0 - 30/10/2024   
+  
+* 0.1.0 - 04/10/2024
+    
+
+## 👨‍💻 Desenvolvedores
+
+![grupo](https://github.com/IolandaManzali/decolando_com-_ciencia_de_dados_grupo21/blob/main/assets/grupo_fiap.jpg)
+
+
+## 📋 Licença
+
+<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1"><p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/"><a property="dct:title" rel="cc:attributionURL" href="https://github.com/agodoi/template">MODELO GIT FIAP</a> por <a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="https://fiap.com.br">Fiap</a> está licenciado sobre <a href="http://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">Attribution 4.0 International</a>.</p>
+
+
