@@ -89,17 +89,17 @@ O Wokwi é uma plataforma de simulação que permite rodar projetos com microcon
   
 	* Conecte os componentes ao ESP32 conforme o esquema a seguir:
  
-		** DHT22: Conectar ao pino GPIO16 do ESP32.
+		# DHT22: Conectar ao pino GPIO16 do ESP32.
   
-		** HC-SR04: Trigger ao pino GPIO4 e Echo ao pino GPIO5.
+		# HC-SR04: Trigger ao pino GPIO4 e Echo ao pino GPIO5.
   
-		** PIR: Conectar ao pino GPIO13.
+		# PIR: Conectar ao pino GPIO13.
+  		
+  		# LDR: Conectar ao pino GPIO12 (utilize um resistor pull-down para leituras estáveis).
   
-		** LDR: Conectar ao pino GPIO12 (utilize um resistor pull-down para leituras estáveis).
+		# LCD I2C: Conectar nos pinos I2C do ESP32 (GPIO21 - SDA e GPIO22 - SCL).
   
-		** LCD I2C: Conectar nos pinos I2C do ESP32 (GPIO21 - SDA e GPIO22 - SCL).
-  
-		** Clique em "Start Simulation" para iniciar a simulação do projeto.
+		# Clique em "Start Simulation" para iniciar a simulação do projeto.
   
     
 ## 📁 Estrutura de pastas
