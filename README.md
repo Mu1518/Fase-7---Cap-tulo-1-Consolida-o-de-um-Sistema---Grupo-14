@@ -52,11 +52,11 @@ O sistema  visa monitorar temperatura e umidade (sensor DHT22), nível de água 
 
 	* PIR: Sensor de movimento para detectar movimento na area monitorada 
 
-		* LDR: sensor de luz (resistor-dependente de luz) para medir a intensidade da luz
+	* LDR: sensor de luz (resistor-dependente de luz) para medir a intensidade da luz
 
-		* LCD I2C (16x2): Display para exibir as informaçoes do sistema
+  	* LCD I2C (16x2): Display para exibir as informaçoes do sistema
 
-		* Jumpers e protoboard para conexões
+	* Jumpers e protoboard para conexões
 
 #### Software
 
