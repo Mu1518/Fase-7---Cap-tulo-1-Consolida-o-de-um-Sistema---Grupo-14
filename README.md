@@ -29,7 +29,7 @@
 ## 📜 Descrição
 
 O projeto "A Eletônica de uma IA" proposta na terceira fase do Curso de Inteligência Artificial da FIAP tem como objetivo desenvolver um sistema inteligente de monitoramento agricola por sensores para coleta de dados ambientais, alem de detecção de movimentos, para em um cultivo de tomate.
-O sistema  visa monitorar temperatura (sensor DHT22), umidade e nível de água (sensorHC-SR04), intensidade de luz (sensor LDR) e sensor de movimento PIR, otimizando a tomada de decisões no uso dos recursos, além de acrescentar uma camada de segurança, ao permitir a detecção de animais e/ou pessoas nas áreas cobertas pelo sensor.
+O sistema  visa monitorar temperatura e umidade (sensor DHT22), nível de água (sensorHC-SR04), intensidade de luz (sensor LDR) e sensor de movimento PIR, otimizando a tomada de decisões no uso dos recursos, além de acrescentar uma camada de segurança, ao permitir a detecção de animais e/ou pessoas nas áreas cobertas pelo sensor.
 
 ## 💻Tecnologias utilizadas
 
@@ -41,91 +41,125 @@ O sistema  visa monitorar temperatura (sensor DHT22), umidade e nível de água 
 ### Componentes do Modelo
 ![microesp](https://github.com/user-attachments/assets/815e3951-ddec-4284-af49-368e83202b44)
 
+#### Hardware
+
 
  	* ESP32: Microcontrolador wi-fi e Bluetooth, ideal para aplicações de IoT.
 	 
-	* Criação do DER (Diagrama Entidade Relacionamento) utilizando o SQL Data Modeler 
+	* DHT22: sensor de temperatura e umidade 
 	
-	* Criação do MER e aplicadas as regras de design e normatização com o SQL Data Modeler 
+	* HC-SR04: sensor ultrasônico para medir o nível de água 
 
-	* Exportação do código gerado em .ddl para utilização no SQL Developer 
+	* PIR: Sensor de movimento para detectar movimento na area monitorada 
 
-	* Criação do Banco de Dados pelo SQL DEveloper Oracle
+	* LDR: sensor de luz (resistor-dependente de luz) para medir a intensidade da luz
 
-	* Criação de um Dicionario de Dados em Excel, descrevendo as Entidades/Tabelas, seus tipos de dados e chaves.
+	* LCD I2C (16x2): Display para exibir as informaçoes do sistema
 
-	* Utilização do código criado para realização de consultas relevantes sobre os dados coletados.     
+ 	* Jumpers e protoboard para conexões
+
+#### Software
+
+ 	* Arduino IDE com suporte para ESP32
+
+  	*Bibliotecas:
+   		
+     		DHT (Adafruit)
+
+     		Ultrasonic
+
+       		LiquidCrystal_I2C
+
+
+### Configuração do Projeto no Wokwi
+
+O Wokwi é uma plataforma de simulação que permite rodar projetos com microcontroladores e sensores sem hardware físico. 
+
+*Para simular o projeto:
+
+	*Acesse wokwi.com
+
+	* Crie um novo projeto ESP32.
+	
+ 	* Copie e cole o código do projeto na área de código do Wokwi.
   
-   
+	* Adicione os componentes necessários no Wokwi:
+ 
+		DHT22, HC-SR04, PIR, LDR e LCD I2C
+  
+	* Conecte os componentes ao ESP32 conforme o esquema a seguir:
+ 
+		DHT22: Conectar ao pino GPIO16 do ESP32.
+  
+		HC-SR04: Trigger ao pino GPIO4 e Echo ao pino GPIO5.
+  
+		PIR: Conectar ao pino GPIO13.
+  
+		LDR: Conectar ao pino GPIO12 (utilize um resistor pull-down para leituras estáveis).
+  
+		LCD I2C: Conectar nos pinos I2C do ESP32 (GPIO21 - SDA e GPIO22 - SCL).
+  
+		Clique em "Start Simulation" para iniciar a simulação do projeto.
+  
+    
 ## 📁 Estrutura de pastas
 
 Dentre os arquivos e pastas presentes na raiz do projeto, definem-se:
 
 - <b>.github</b>: init
-- <b>assets</b>: imagens em png do MER e DER
+- <b>assets</b>: imagens em png do modelo ESP32
 
 - <b>config</b>: documentos FIAP Fase3
 
-- <b>document</b>: update tabelas CONAB.
+- <b>document</b>: documentos complementares
 
-- <b>scripts</b>: update arquivo com o backup do codigo em SQL.
+- <b>scripts</b>: backup do codigo em .ino
 
 - <b>src</b>: update do código.
 
 - <b>README.md</b>: init
 
   
-## 🔧 Como executar o código
+## 🔧 Como executar o Projeto
 
- * Acessar o SQL Developer, conectar-se a um banco de dados e abrir a Query
+ * Configurando o Ambiente
+
+ 	** Instale o Arduino IDE
+
+ 	** Adicione o suporte para ESP32 na IDE
+
+ 	** Instale as Bibliotecas necessárias através do Gerenciador de Bibliotecas 
   	
- * Acessar o conteudo das tabelas através do comando:
+ 
+  * Conectando os sensores
 
-    	SELECT * FROM nome_da_tabela
+ 	** Conecte os sensores e o LCD ao ESP 32 conforme as instruções abaixo
 
- * Utilizar os dados das tabelas para gerar analise de dados sobre produção, produtividade e area plantada conforme os exemplos a seguir:
+    		DHT22: Pino 16
 
- * Análises por cultura e região 	
+     		HC-SR04: Trigger no Pino 4 e Echo no Pino 5
+
+    		PIR: Pino 13
+    	  
+		LDR: Pino 12 (ADC)
+
+  		LCD I2C: Pinos I2C (GND, VCC, SDA, SCL)
+    
+		
+ * Carregando o Código
+
+  	**Copie o código fornecido para o arquivo de esboço da IDE do Arduino
+
+ 	** Conecte o ESP32 ao computador e selecione a porta correta
+   
+	** Faça o upload do código para o ESP32
+   
 	
- * ranking de produção por região (em ordem descrescente)
-	
-		SELECT t2.nm_regiao, t1.nm_cultura, SUM(t3.vl_producao) AS total_producao
- 		FROM t_cultura t1
-		JOIN t_relatorio_cultura t3 ON t1.id_cultura = t3.id_cultura
-		JOIN t_regiao t2 ON t2.cd_regiao = t3.cd_regiao
-		GROUP BY t2.nm_regiao, t1.nm_cultura
-		ORDER BY t2.nm_regiao, total_producao DESC;
+ * Monitorando o sistema
+   
+	** Acesse o Monitor Serial da Arduino IDE para visualizar as leituras dos sensores
 
- * ranking de produtividade por tipo de grão por ano, (em ordem descrescente)
-
-   		SELECT t2.nm_regiao, AVG(t3.vl_produtividade) AS produtividade_media
-		FROM t_cultura t1
-		JOIN t_relatorio_cultura t3 ON t1.id_cultura = t3.id_cultura
-		JOIN t_regiao t2 ON t2.cd_regiao = t3.cd_regiao
-		WHERE t1.nm_cultura = 'tipo_de_grao' AND t1.id_ano_safra = ano_da_safra
-		GROUP BY t2.nm_regiao
-		ORDER BY produtividade_media DESC;
-    	
-	
- * comparação das produtividades médias por tipo de grão por região
-
-	  	SELECT t2.nm_regiao,
-       		AVG(CASE WHEN t1.nm_cultura = 'ARABICA' THEN t3.vl_produtividade END) AS produtividade_arabica,
-       		AVG(CASE WHEN t1.nm_cultura = 'CONILLON' THEN t3.vl_produtividade END) AS produtividade_conillon
-		FROM t_cultura t1
-		JOIN t_relatorio_cultura t3 ON t1.id_cultura = t3.id_cultura
-		JOIN t_regiao t2 ON t2.cd_regiao = t3.cd_regiao
-		GROUP BY t2.nm_regiao;
-
- * analise da producao do café por tipo de grão entre 2014 e 2024
-
-		SELECT t1.id_ano_safra, SUM(t3.vl_producao) AS total_producao_arabica
-		FROM t_cultura t1
-		JOIN t_relatorio_cultura t3 ON t1.id_cultura = t3.id_cultura
-		WHERE t1.nm_cultura = 'Ttipo_de_grao'
-		GROUP BY t1.id_ano_safra
-		ORDER BY t1.id_ano_safra;
-
+   	** Verifique o Display LCD para visualizar as informações em tempo real
 
 
 ## 🗃 Histórico de lançamentos
@@ -136,9 +170,9 @@ Dentre os arquivos e pastas presentes na raiz do projeto, definem-se:
 
 * 0.3.0 - XX/XX/2024
   
-* 0.2.0 - 30/10/2024   
+* 0.2.0 - XX/XX/2024   
   
-* 0.1.0 - 04/10/2024
+* 0.1.0 - 05/11/2024
     
 
 ## 👨‍💻 Desenvolvedores
