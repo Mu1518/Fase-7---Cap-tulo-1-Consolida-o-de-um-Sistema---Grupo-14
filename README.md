@@ -162,6 +162,9 @@ Dentre os arquivos e pastas presentes na raiz do projeto, definem-se:
    	** Verifique o Display LCD para visualizar as informações em tempo real
 
 
+   ![gifesp32]()
+
+
 ## 🗃 Histórico de lançamentos
 
 * 0.5.0 - XX/XX/2024
