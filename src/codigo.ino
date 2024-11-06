@@ -1,7 +1,7 @@
 // Eletronica de uma  IA
 // Atividade academica desenvolvida pelos integrantes do grupo 8 do Curso de Inteligencia Artificial - 1IAOT 
-// Projeto criado com o objetivo de desenvolver um circuito inteligente de monitoramento de temperatura, umidade, nivel de agua e intensidde de luz, alem de sensor de movimento, desenvolvido pela plataforma Wokwi e utilizando 
-// as tecnologias Arduino e ESP32 
+// Projeto criado com o objetivo de desenvolver um circuito inteligente de monitoramento de temperatura, umidade, nivel de agua e intensidde de luz, alem de sensor de movimento, desenvolvido pela plataforma Wokwi, 
+// utilizando as tecnologias Arduino e ESP32 
 
 #include <DHT.h>
 #include <Ultrasonic.h>
