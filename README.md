@@ -113,6 +113,8 @@ Dentre os arquivos e pastas presentes na raiz do projeto, definem-se:
 
 - <b>document</b>: documentos complementares
 
+- 
+
 - <b>scripts</b>: backup do codigo em .ino
 
 - <b>src</b>: update do código.
