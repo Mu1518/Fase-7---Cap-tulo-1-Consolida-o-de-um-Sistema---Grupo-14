@@ -109,15 +109,13 @@ Dentre os arquivos e pastas presentes na raiz do projeto, definem-se:
 - <b>.github</b>: init
 - <b>assets</b>: imagens em png do modelo ESP32
 
-- <b>config</b>: documentos FIAP Fase3
+- <b>docs</b>: documentos FIAP Fase3
 
-- <b>document</b>: documentos complementares
+- <b>link</b>: link do projeto (url)
+  
+- <b>src</b>: código do projeto (.ino e .json)
 
-- 
-
-- <b>scripts</b>: backup do codigo em .ino
-
-- <b>src</b>: update do código.
+- <b>test</b>: manual do usuário.
 
 - <b>README.md</b>: init
 
