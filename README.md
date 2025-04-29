@@ -47,7 +47,7 @@ A Entrega 1 consiste na criação de um sistema de visão computacional usando o
   1. Acessar o notebook atraves do link [Entrega_1](https://colab.research.google.com/drive/1H_kKbdGa4h-0ZwlKC4BMwtZSMGpK1G5-?usp=sharing)
      Observação: Link do Google Colab com acesso apenas para leitura
   2. Selecione no campo 'Ambiente de execução" como deseja executar o programa
-     
+     ![Ambiente](assets/ambi_execucao.png)
 
   4. Após selecionar o ambiente de excução, podemos visualizar os treinamento e resultados apresentados
   5. Além disso é possivel ver em cada época uma amostra de amostra de 8 imagens e entender qual foi o recorte feito pelo programa e a precisão a presentada
