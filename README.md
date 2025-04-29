@@ -94,8 +94,18 @@ A Entrega 2 desenvolvimento de dois sistemas de detecção de objetos distintos,
   5. Realize a análise do código e verifique suas conclusões e comparações.
 
 ### CNNs
-  
-     
+
+ * Acessar o notebook através do link
+
+ * Selecione no campo “Ambiente de execução” como deseja executar o programa, conforme mostrado na seção “como executar o projeto” do entregável 1.
+
+ * Execute o treinamento da CNN e visualize a acurácia do modelo, época a época, nos dados de treino e de validação.
+
+ * Visualize o desempenho geral do modelo baseado na acurácia e na função de perda (loss)
+
+ * Visualize a predições realizadas pelo modelo em 8 imagens de teste
+
+
 ## 🎥 Demonstração
 
 [Link para vídeo demonstrativo no Youtube](https://youtu.be/Q5CVTFYaELo)    
