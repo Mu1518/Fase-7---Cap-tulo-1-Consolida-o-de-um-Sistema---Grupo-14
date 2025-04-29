@@ -1,0 +1,7 @@
+train: /content/drive/MyDrive/Yolo/dataset/images/train
+val: /content/drive/MyDrive/Yolo/dataset/images/val
+
+names:  
+  0: "trator"
+  1: "drone"
+  
