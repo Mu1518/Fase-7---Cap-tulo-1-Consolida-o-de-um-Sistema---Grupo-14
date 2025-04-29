@@ -34,7 +34,7 @@ O objetivo é demonstrar o potencial e as nuances de diferentes soluções de vi
 
 - **/docs/entrega_1** - Arquivos .txt
 - **/src/entrega_1** - Código-fonte (.ipynb, .yaml)
-- **/assets/entrega_1** - Imagens de treino e teste e arquivos .csv
+- **/assets/entrega_1** - Imagens de treino e teste, arquivos .csv
 
  ## 💻 Tecnologias utilizadas
  
