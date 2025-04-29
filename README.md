@@ -6,11 +6,11 @@
 
 <br>
 
-# Nome do projeto - Despertar das Redes Neurais
+# PROJETO FASE 6 – O COMEÇO DA REDE NEURAL
 
 
 
-## Nome do grupo - Grupo 22
+## Nome do grupo - Grupo 28
 
 ## 👨‍🎓 Integrantes: 
 - <a href="https://www.linkedin.com/in/iolanda-helena-fabbrini-manzali-de-oliveira-14ab8ab0">Iolanda Helena Fabbrini Manzali de Oliveira</a>
@@ -24,7 +24,7 @@
 ### Coordenador(a)
 - <a href="https://www.linkedin.com/company/inova-fusca">Andre Godoi Chaviato</a>
 
-# ENTREGA 1
+# ENTREGÁVEL 1
 
 ## 📜 Descrição
 
@@ -47,14 +47,16 @@ A Entrega 1 consiste na criação de um sistema de visão computacional usando o
   1. Acessar o notebook atraves do link [Entrega_1](https://colab.research.google.com/drive/1H_kKbdGa4h-0ZwlKC4BMwtZSMGpK1G5-?usp=sharing)
      Observação: Link do Google Colab com acesso apenas para leitura
   2. Selecione no campo 'Ambiente de execução" como deseja executar o programa
-     ![Ambiente](assets/ambi_execucao.png)
-  3. Visualize os resultados do treinamento, incluindo amostras de 8 imagens por época com os respectivos recortes e precisão.
-  4. Analise a performance do modelo por época, comparando as métricas mAP50 e mAP50-95 para identificar a melhor configuração.
-  5. Realize a análise do código e verifique suas conclusões e comparações.
+     
+![Ambiente](assets/ambi_execucao.png)
+     
+  4. Visualize os resultados do treinamento, incluindo amostras de 8 imagens por época com os respectivos recortes e precisão.
+  5. Analise a performance do modelo por época, comparando as métricas mAP50 e mAP50-95 para identificar a melhor configuração.
+  6. Realize a análise do código e verifique suas conclusões e comparações.
        
 ## 🎥 Demonstração
 
-[Link para vídeo demonstrativo no Youtube](https://youtu.be/Q5CVTFYaELo)    
+[Link para vídeo demonstrativo no Youtube](colocar o link do videodo entregavel1)    
 
 
 ---
