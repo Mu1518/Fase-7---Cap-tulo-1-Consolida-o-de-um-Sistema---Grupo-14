@@ -53,7 +53,7 @@ Esta entrega foca na construção de  criação de um  um modelo funcional  de v
  
 ## 🔧 Como executar o Projeto
 
-  1. Acessar o notebook atraves do link [[Notebook_yolov12](https://colab.research.google.com/drive/1H_kKbdGa4h-0ZwlKC4BMwtZSMGpK1G5-?usp=sharing)](#)
+  1. Acessar o notebook atraves do link [Notebook_yolov12](https://colab.research.google.com/drive/1H_kKbdGa4h-0ZwlKC4BMwtZSMGpK1G5-?usp=sharing)
    
 Observação: Link do Google Colab para acesso a leitura do notebook
   
@@ -81,7 +81,7 @@ A Entrega 2 desenvolvimento de dois sistemas de detecção de objetos distintos,
 
 ### Yolo V5s
 
-  1. Acessar o notebook atraves do link [[Notebook_yolov12](https://colab.research.google.com/drive/1H_kKbdGa4h-0ZwlKC4BMwtZSMGpK1G5-?usp=sharing)]#
+  1. Acessar o notebook atraves do link [[Notebook_yolov5](https://colab.research.google.com/drive/120g7qoAFt2sa-KCyej0DQ11uGFxjksii?usp=sharing)]#
    
      Observação: Link do Google Colab para acesso a leitura do notebook
   
@@ -95,7 +95,7 @@ A Entrega 2 desenvolvimento de dois sistemas de detecção de objetos distintos,
 
 ### CNNs
 
- * Acessar o notebook através do link
+ * Acessar o notebook através do link [notebook_cnn](https://colab.research.google.com/drive/1tSQYOzSsNazYZnlwf8RVcLsDN0feX3A_?usp=sharing)
 
  * Selecione no campo “Ambiente de execução” como deseja executar o programa, conforme mostrado na seção “como executar o projeto” do entregável 1.
 
