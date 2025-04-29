@@ -48,37 +48,9 @@ A Entrega 1 consiste na criação de um sistema de visão computacional usando o
      Observação: Link do Google Colab com acesso apenas para leitura
   2. Selecione no campo 'Ambiente de execução" como deseja executar o programa
      ![Ambiente](assets/ambi_execucao.png)
-
-  4. Após selecionar o ambiente de excução, podemos visualizar os treinamento e resultados apresentados
-  5. Além disso é possivel ver em cada época uma amostra de amostra de 8 imagens e entender qual foi o recorte feito pelo programa e a precisão a presentada
-  6. Visando um intendimento claro por parte do usuário fizemos uma análise dos resultados e com base nisso com paramos as épocas, definindo qual é a melhor para esse modelo com base nas métrica mAP50 e mAp50-95
-  7. Agora é a sua vez de análisar o código e fazer assuas análises
-
-Passo 2: Identifique o Código Responsável pela "Área de Execução"
-
-"Ambiente de Execução"
-
-Passo 3: Entenda a Visualização de Treinamentos e Resultados (Ponto 3)
-
-Procure por Código de Plotagem: Se os treinamentos e resultados são visualizados graficamente, procure por bibliotecas de plotagem sendo utilizadas no código. Em Python, bibliotecas comuns são Matplotlib, Seaborn e Plotly. Em JavaScript, podem ser Chart.js ou outras.
-Analise a Lógica de Exibição: Veja como os dados (métricas de treinamento, perdas, acurácia, etc.) são processados e formatados para serem exibidos. Observe como os dados são carregados e passados para as funções de plotagem.
-Passo 4: Investigue a Amostra de Imagens por Época (Ponto 4)
-
-Procure por Código de Manipulação de Imagens: Se o projeto envolve visão computacional e exibe amostras de imagens, procure por bibliotecas de processamento de imagens como Pillow (Python) ou funcionalidades nativas do navegador (JavaScript).
-Entenda o Recorte e a Precisão: Analise o código que determina qual parte da imagem é mostrada como "recorte" e como a "precisão apresentada" é calculada e associada a essa amostra. Isso pode envolver a análise de arquivos de log, metadados ou resultados da inferência do modelo.
-Passo 5: Compreenda a Análise e Comparação de Épocas (Ponto 5)
-
-Localize o Código de Avaliação: Procure por funções ou scripts que calculam as métricas mAP50 e mAP50-95. Essas métricas são comuns em tarefas de detecção de objetos.
-Analise a Lógica de Comparação: Veja como os resultados dessas métricas são armazenados para diferentes épocas e como o código compara esses valores para determinar a "melhor época". Pode haver lógica para identificar picos, tendências ou um valor ótimo com base nessas métricas.
-Passo 6: Faça Sua Análise do Código (Ponto 6)
-
-Leia o Código com Atenção: Comece lendo os arquivos que você identificou nos passos anteriores. Tente entender a estrutura geral do código, as funções definidas e como elas interagem.
-Procure por Comentários e Documentação: Um bom código geralmente possui comentários que explicam o que diferentes partes fazem. Se houver alguma documentação (arquivos README.md, guias, etc.), leia-os para obter um contexto maior.
-Execute o Código Localmente (se possível): Se você tiver permissão e o ambiente configurado, executar o código localmente pode te ajudar a entender o fluxo e ver as funcionalidades em ação. Você pode usar ferramentas de debugging para inspecionar variáveis e o comportamento do programa.
-Faça Perguntas Específicas: Se você encontrar partes do código que não entender, anote suas dúvidas. Você pode me perguntar sobre trechos específicos e eu farei o meu melhor para te ajudar a esclarecer.
-
-
-
+  3. Visualize os resultados do treinamento, incluindo amostras de 8 imagens por época com os respectivos recortes e precisão.
+  4. Analise a performance do modelo por época, comparando as métricas mAP50 e mAP50-95 para identificar a melhor configuração.
+  5. Realize a análise do código e verifique suas conclusões e comparações.
        
 ## 🎥 Demonstração
 
@@ -106,11 +78,13 @@ A Entrega 2 desenvolvimento de dois sistemas de detecção de objetos distintos,
 
 ## 🔧 Como executar o Projeto
 
-  1. Acessar o notebook atraves do link [Entrega_1](https://colab.research.google.com/drive/1mGIY150CzsRO05xwk_pjD1t94CauImdd?usp=sharing)
-  2. Selecione no  campo 'Ambiente de execução" o modo para executar o código.
-
-     * Observação: link do notebook com acesso restrito a leitura do código
-
+   1. Acessar o notebook atraves do link [Entrega_2 - Yolo v5](COLOCAR O LINK DO COLAB)
+     Observação: Link do Google Colab com acesso apenas para leitura
+  2. Selecione no campo 'Ambiente de execução" como deseja executar o programa
+     ![Ambiente](assets/ambi_execucao.png)
+  3. Visualize os resultados do treinamento, incluindo amostras de 8 imagens por época com os respectivos recortes e precisão.
+  4. Analise a performance do modelo por época, comparando as métricas mAP50 e mAP50-95 para identificar a melhor configuração.
+  5. Realize a análise do código e verifique suas conclusões e comparações.
      
 ## 🎥 Demonstração
 
