@@ -40,7 +40,7 @@ O objetivo é demonstrar o potencial e as nuances de diferentes soluções de vi
 
 ## 📜 Descrição
 
-Esta entrega foca na construçaõ de  criação de um  um modelo funcional  de visão computacional para a FarmTech Solutions utilizando a arquitetura YOLOv5 para a detecção personalizada de objetos de um dataset devidamente rotulados, treinados, validaoos e testados. 
+Esta entrega foca na construção de  criação de um  um modelo funcional  de visão computacional para a FarmTech Solutions utilizando a arquitetura YOLOv5 para a detecção personalizada de objetos de um dataset devidamente rotulados, treinados, validaoos e testados. 
  
  ## 💻 Tecnologias utilizadas
  
