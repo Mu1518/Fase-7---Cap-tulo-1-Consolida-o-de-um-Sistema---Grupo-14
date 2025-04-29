@@ -41,7 +41,7 @@ O objetivo é demonstrar o potencial e as nuances de diferentes soluções de vi
 [![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)](#)
 [![Google Colab](https://img.shields.io/badge/Google%20Colab-%23F9A825.svg?style=for-the-badge&logo=googlecolab&logoColor=white)](#)
 ![YOLOv5](https://img.shields.io/badge/YOLO-v5-ffcc00?style=for-the-badge)
-![YOLOv5](https://img.shields.io/badge/YOLO-v12-ffcc02?style=for-the-badge)
+![YOLOv5](https://img.shields.io/badge/YOLO-v12-efcc00?style=for-the-badge)
 
 
 
@@ -51,13 +51,6 @@ O objetivo é demonstrar o potencial e as nuances de diferentes soluções de vi
 
 Esta entrega foca na construção de  criação de um  um modelo funcional  de visão computacional para a FarmTech Solutions utilizando a arquitetura YOLOv5 para a detecção personalizada de objetos de um dataset devidamente rotulados, treinados, validados e testados. 
  
- ## 💻 Tecnologias utilizadas
- 
-[![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)](#)
-[![Google Colab](https://img.shields.io/badge/Google%20Colab-%23F9A825.svg?style=for-the-badge&logo=googlecolab&logoColor=white)](#)
-![YOLOv5](https://img.shields.io/badge/YOLO-v5-ffcc00?style=for-the-badge)
-
-
 ## 🔧 Como executar o Projeto
 
   1. Acessar o notebook atraves do link [Entrega_1](https://colab.research.google.com/drive/1H_kKbdGa4h-0ZwlKC4BMwtZSMGpK1G5-?usp=sharing)
@@ -84,12 +77,6 @@ Observação: Link do Google Colab para acesso a leitura do notebook
 
 A Entrega 2 desenvolvimento de dois sistemas de detecção de objetos distintos, ambos fundamentados na base de dados estabelecida na Entrega 1. O primeiro sistema consiste na implementação de um modelo de visão computacional utilizando a arquitetura YOLOv5. Será desenvolvida uma Rede Neural Convolucional (CNN) customizada, treinada igualmente com o conjunto de dados da etapa anterior. Posteriormente análisar detalhadamente os resultados obtidos por ambas as arquiteturas (YOLOv5 e CNN) em relação ao desempenho apresentado na Entrega 1.
  
- ## 💻 Tecnologias utilizadas
- 
-[![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)](#)
-[![Google Colab](https://img.shields.io/badge/Google%20Colab-%23F9A825.svg?style=for-the-badge&logo=googlecolab&logoColor=white)](#)
-[![YOLOv5](https://img.shields.io/badge/YOLOv5-ffcc00?style=for-the-badge)](#)
-
 ## 🔧 Como executar o Projeto
 
   1. Acessar o notebook atraves do link [Entrega_1](https://colab.research.google.com/drive/1H_kKbdGa4h-0ZwlKC4BMwtZSMGpK1G5-?usp=sharing)
