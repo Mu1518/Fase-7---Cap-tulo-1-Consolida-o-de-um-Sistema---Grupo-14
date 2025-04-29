@@ -40,7 +40,7 @@ Esta entrega foca na construçaõ de  criação de um  um modelo funcional  de v
  
 [![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)](#)
 [![Google Colab](https://img.shields.io/badge/Google%20Colab-%23F9A825.svg?style=for-the-badge&logo=googlecolab&logoColor=white)](#)
-[![Yolov5](https://img.shields.io/badge/Yolo%20v5-%23F9A825.svg?style=for-the-badge&logo=googlecolab&logoColor=white)](#)
+[![Yolov5](https://img.shields.io/badge/Yolo%20v5-%yolo.svg?style=for-the-badge&logo=googlecolab&logoColor=white)](#)
 
 ## 📁 Estrutura de pastas
 
