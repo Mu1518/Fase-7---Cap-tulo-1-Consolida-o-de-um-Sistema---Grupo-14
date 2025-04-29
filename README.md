@@ -81,7 +81,7 @@ A Entrega 2 desenvolvimento de dois sistemas de detecção de objetos distintos,
 
 ### Yolo V5s
 
-  1. Acessar o notebook atraves do link [[Notebook_yolov5](https://colab.research.google.com/drive/120g7qoAFt2sa-KCyej0DQ11uGFxjksii?usp=sharing)]#
+  1. Acessar o notebook atraves do link [Notebook_yolov5](https://colab.research.google.com/drive/120g7qoAFt2sa-KCyej0DQ11uGFxjksii?usp=sharing)
    
      Observação: Link do Google Colab para acesso a leitura do notebook
   
