@@ -24,17 +24,23 @@
 ### Coordenador(a)
 - <a href="https://www.linkedin.com/company/inova-fusca">Andre Godoi Chaviato</a>
 
-# ENTREGÁVEL 1
+## Sobre o Projeto
+
+Este projeto visa explorar a aplicação prática de técnicas de visão computacional para a FarmTech Solutions, inicialmente focando na detecção de objetos personalizados utilizando a arquitetura YOLO. Adicionalmente, o projeto realiza uma análise comparativa com abordagens alternativas, como a YOLO original e uma CNN treinada do zero para classificação de imagens, avaliando seus desempenhos em diferentes aspectos. 
+
+O objetivo é demonstrar o potencial e as nuances de diferentes soluções de visão computacional em cenários práticos.
+
+## ENTREGÁVEL 1
 
 ## 📜 Descrição
 
-A Entrega 1 consiste na criação de um sistema de visão computacional usando o yolo que desmontre o pótencial e acurácia.
+Esta entrega foca na construçaõ de  criação de um  um modelo funcional  de visão computacional para a FarmTech Solutions utilizando a arquitetura YOLOv5 para a detecção personalizada de objetos de um dataset devidamente rotulados, treinados, validaoos e testados. 
  
  ## 💻 Tecnologias utilizadas
  
 [![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)](#)
 [![Google Colab](https://img.shields.io/badge/Google%20Colab-%23F9A825.svg?style=for-the-badge&logo=googlecolab&logoColor=white)](#)
-
+[![Yolov5](https://img.shields.io/badge/Yolo%20v5-%23F9A825.svg?style=for-the-badge&logo=googlecolab&logoColor=white)](#)
 
 ## 📁 Estrutura de pastas
 
