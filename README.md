@@ -41,7 +41,7 @@ O objetivo é demonstrar o potencial e as nuances de diferentes soluções de vi
 [![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)](#)
 [![Google Colab](https://img.shields.io/badge/Google%20Colab-%23F9A825.svg?style=for-the-badge&logo=googlecolab&logoColor=white)](#)
 ![YOLOv5](https://img.shields.io/badge/YOLO-v5-ffcc00?style=for-the-badge)
-![YOLOv5](https://img.shields.io/badge/YOLO-v12-efcc00?style=for-the-badge)
+![YOLOv12](https://img.shields.io/badge/YOLO-v12-90ee90?style=for-the-badge&labelColor=000000)
 
 
 
