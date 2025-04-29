@@ -47,7 +47,7 @@ Esta entrega foca na construçaõ de  criação de um  um modelo funcional  de v
 [![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)](#)
 [![Google Colab](https://img.shields.io/badge/Google%20Colab-%23F9A825.svg?style=for-the-badge&logo=googlecolab&logoColor=white)](#)
 <img src="https://your-host.com/yolo-icon.svg" height="20">
-<img src="https://img.shields.io/badge/YOLOv5-vision-green?style=for-the-badge">
+<img src="(https://github.com/Mu1518/FIAP---Fase-6---Cap-tulo1-Despertar-da-Resdes-Neurais/blob/main/assets/yolo.svg)">
 
 
 ## 🔧 Como executar o Projeto
