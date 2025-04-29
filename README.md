@@ -30,6 +30,12 @@ Este projeto visa explorar a aplicação prática de técnicas de visão computa
 
 O objetivo é demonstrar o potencial e as nuances de diferentes soluções de visão computacional em cenários práticos.
 
+## 📁 Estrutura de pastas
+
+- **/docs/entrega_1** - Documentação do projeto
+- **/src/entrega_1** - Código-fonte 
+- **/assets/entrega_1** - Imagens e arquivos .csv
+
 ## ENTREGÁVEL 1
 
 ## 📜 Descrição
@@ -41,12 +47,6 @@ Esta entrega foca na construçaõ de  criação de um  um modelo funcional  de v
 [![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)](#)
 [![Google Colab](https://img.shields.io/badge/Google%20Colab-%23F9A825.svg?style=for-the-badge&logo=googlecolab&logoColor=white)](#)
 [![YOLOv5](https://img.shields.io/badge/YOLOv5-ffcc00?style=for-the-badge)](#)
-
-## 📁 Estrutura de pastas
-
-- **/docs/entrega_1** - Documentação do projeto
-- **/src/entrega_1** - Código-fonte 
-- **/assets/entrega_1** - Prints e arquivos csv
 
 ## 🔧 Como executar o Projeto
 
@@ -64,9 +64,7 @@ Esta entrega foca na construçaõ de  criação de um  um modelo funcional  de v
 
 [Link para vídeo demonstrativo no Youtube](colocar o link do videodo entregavel1)    
 
-
----
-# ENTREGA 2
+# ENTREGÁVEL 2
 
 ### 📜 Descrição
 
@@ -76,13 +74,7 @@ A Entrega 2 desenvolvimento de dois sistemas de detecção de objetos distintos,
  
 [![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)](#)
 [![Google Colab](https://img.shields.io/badge/Google%20Colab-%23F9A825.svg?style=for-the-badge&logo=googlecolab&logoColor=white)](#)
-
-
-## 📁 Estrutura de pastas
-
-- **/docs/entrega_1** - Documentação do projeto
-- **/src/entrega_1** - Código-fonte 
-- **/assets/entrega_1** - Prints e arquivos csv
+[![YOLOv5](https://img.shields.io/badge/YOLOv5-ffcc00?style=for-the-badge)](#)
 
 ## 🔧 Como executar o Projeto
 
