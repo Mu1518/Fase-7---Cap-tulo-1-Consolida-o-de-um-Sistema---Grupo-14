@@ -53,7 +53,7 @@ Esta entrega foca na construção de  criação de um  um modelo funcional  de v
 
   1. Acessar o notebook atraves do link [Entrega_1](https://colab.research.google.com/drive/1H_kKbdGa4h-0ZwlKC4BMwtZSMGpK1G5-?usp=sharing)
    
-     Observação: Link do Google Colab para acesso a leitura do notebook
+Observação: Link do Google Colab para acesso a leitura do notebook
   
   2. Selecione no campo 'Ambiente de execução" como deseja executar o programa
      
