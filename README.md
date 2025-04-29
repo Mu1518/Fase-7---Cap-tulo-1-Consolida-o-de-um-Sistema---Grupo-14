@@ -67,10 +67,6 @@ Observação: Link do Google Colab para acesso a leitura do notebook
      
   5. Realize a análise do código e verifique suas conclusões e comparações.
        
-## 🎥 Demonstração
-
-[Link para vídeo demonstrativo no Youtube](colocar o link do videodo entregavel1)    
-
 # ENTREGÁVEL 2
 
 ### 📜 Descrição
@@ -106,9 +102,9 @@ A Entrega 2 desenvolvimento de dois sistemas de detecção de objetos distintos,
  * Visualize a predições realizadas pelo modelo em 8 imagens de teste
 
 
-## 🎥 Demonstração
+## 🎥 Video Demonstrativo
 
-[Link para vídeo demonstrativo no Youtube](https://youtu.be/Q5CVTFYaELo)    
+[Link para vídeo demonstrativo no Youtube](https://youtu.be/G_rgjv5tbgY)   
 
 ## 📋 Licença
 
