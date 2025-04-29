@@ -79,6 +79,8 @@ A Entrega 2 desenvolvimento de dois sistemas de detecção de objetos distintos,
  
 ## 🔧 Como executar o Projeto
 
+### Yolo V5s
+
   1. Acessar o notebook atraves do link [Entrega_1](https://colab.research.google.com/drive/1H_kKbdGa4h-0ZwlKC4BMwtZSMGpK1G5-?usp=sharing)
    
      Observação: Link do Google Colab para acesso a leitura do notebook
@@ -90,6 +92,9 @@ A Entrega 2 desenvolvimento de dois sistemas de detecção de objetos distintos,
   4. Analise a performance do modelo por época, comparando as métricas mAP50 e mAP50-95 para identificar a melhor configuração.
      
   5. Realize a análise do código e verifique suas conclusões e comparações.
+
+### CNNs
+  
      
 ## 🎥 Demonstração
 
