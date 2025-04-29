@@ -40,7 +40,7 @@ O objetivo é demonstrar o potencial e as nuances de diferentes soluções de vi
 
 ## 📜 Descrição
 
-Esta entrega foca na construção de  criação de um  um modelo funcional  de visão computacional para a FarmTech Solutions utilizando a arquitetura YOLOv5 para a detecção personalizada de objetos de um dataset devidamente rotulados, treinados, validaoos e testados. 
+Esta entrega foca na construção de  criação de um  um modelo funcional  de visão computacional para a FarmTech Solutions utilizando a arquitetura YOLOv5 para a detecção personalizada de objetos de um dataset devidamente rotulados, treinados, validados e testados. 
  
  ## 💻 Tecnologias utilizadas
  
@@ -52,14 +52,18 @@ Esta entrega foca na construção de  criação de um  um modelo funcional  de v
 ## 🔧 Como executar o Projeto
 
   1. Acessar o notebook atraves do link [Entrega_1](https://colab.research.google.com/drive/1H_kKbdGa4h-0ZwlKC4BMwtZSMGpK1G5-?usp=sharing)
-     Observação: Link do Google Colab com acesso apenas para leitura
+   
+     Observação: Link do Google Colab para acesso a leitura do notebook
+  
   2. Selecione no campo 'Ambiente de execução" como deseja executar o programa
      
 ![Ambiente](assets/ambi_execucao.png)
      
-  4. Visualize os resultados do treinamento, incluindo amostras de 8 imagens por época com os respectivos recortes e precisão.
-  5. Analise a performance do modelo por época, comparando as métricas mAP50 e mAP50-95 para identificar a melhor configuração.
-  6. Realize a análise do código e verifique suas conclusões e comparações.
+  3. Visualize os resultados do treinamento, incluindo amostras de 8 imagens por época com os respectivos recortes e precisão.
+     
+  4. Analise a performance do modelo por época, comparando as métricas mAP50 e mAP50-95 para identificar a melhor configuração.
+     
+  5. Realize a análise do código e verifique suas conclusões e comparações.
        
 ## 🎥 Demonstração
 
