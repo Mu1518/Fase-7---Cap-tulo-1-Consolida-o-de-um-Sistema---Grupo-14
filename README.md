@@ -24,7 +24,7 @@
 ### Coordenador(a)
 - <a href="https://www.linkedin.com/company/inova-fusca">Andre Godoi Chaviato</a>
 
-## Sobre o Projeto
+## 🗃️ Sobre o Projeto
 
 Este projeto visa explorar a aplicação prática de técnicas de visão computacional para a FarmTech Solutions, inicialmente focando na detecção de objetos personalizados utilizando a arquitetura YOLO. Adicionalmente, o projeto realiza uma análise comparativa com abordagens alternativas, como a YOLO original e uma CNN treinada do zero para classificação de imagens, avaliando seus desempenhos em diferentes aspectos. 
 
