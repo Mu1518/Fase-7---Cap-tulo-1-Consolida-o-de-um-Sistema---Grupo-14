@@ -8,7 +8,7 @@
 
 # PROJETO FASE 7 – Consolidação do Sistema
 
-![redeneural](https://github.com/Mu1518/FIAP---Fase-6---Cap-tulo1-Despertar-da-Resdes-Neurais/blob/main/assets/r_neural.jpeg)
+![redeneural](https://github.com/Mu1518/Fase-7---Cap-tulo-1-Consolida-o-de-um-Sistema---Grupo-14/blob/main/assets/Capa%20-%20Cap1(F7).png)
 
 ## Nome do grupo - Grupo 28
 
