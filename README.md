@@ -6,7 +6,7 @@
 
 <br>
 
-# PROJETO FASE 6 – O COMEÇO DA REDE NEURAL
+# PROJETO FASE 7 – Consolidação do Sistema
 
 ![redeneural](https://github.com/Mu1518/FIAP---Fase-6---Cap-tulo1-Despertar-da-Resdes-Neurais/blob/main/assets/r_neural.jpeg)
 
