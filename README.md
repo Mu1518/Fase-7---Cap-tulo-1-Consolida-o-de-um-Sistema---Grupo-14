@@ -66,11 +66,16 @@ F7 -  Integração Final: Reunir todos os módulos em uma pasta unificada, permi
 
 1. Baixar o arquivo fonte e abrir no VS code
 2. Abrir a pasta app_utils e rodar o arquivo conn_db.py
+![pasta app_utils](https://github.com/Mu1518/Fase-7---Cap-tulo-1-Consolida-o-de-um-Sistema---Grupo-14/blob/main/assets/Captura%20de%20tela%202025-05-23%20233439.png)
+3. Para acessar a gui do stremlit, abra o terminal integrago, fechando a sub pasta e clicando nela com o botão direito do mause
+![terminal integrado](https://github.com/Mu1518/Fase-7---Cap-tulo-1-Consolida-o-de-um-Sistema---Grupo-14/blob/main/assets/Captura%20de%20tela%202025-05-23%20233458.png)
+4. Depois de abrir o terminal digite o comando "streamlit run introducao.py"
+5. Após isso você sera direcionado para pagina web, podendo disfrutar do código
 
 
 ## 🎥 Video Demonstrativo
 
-[Link para vídeo demonstrativo no Youtube](https://youtu.be/G_rgjv5tbgY)   
+[Link para vídeo demonstrativo no Youtube]([https://youtu.be/G_rgjv5tbgY](https://youtu.be/d6bp8IZm2NM))   
 
 ## 📋 Licença
 
