@@ -56,23 +56,16 @@ F7 -  Integração Final: Reunir todos os módulos em uma pasta unificada, permi
 - **/assets/entrega_1** - Imagens de treino e teste, arquivos .csv
 
  ## 💻 Tecnologias utilizadas
- 
-[![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)](#)
-![YOLOv12](https://img.shields.io/badge/YOLO-v12-90ee90?style=for-the-badge&labelColor=000000)
-stremlit
-oracle
 
-
-
-## ENTREGÁVEL 1
-
-## 📜 Descrição
-
-
+ - Streamli
+ - Oracle
+ - Python
+ - Yolo v12
 
 ## 🔧 Como executar o Projeto
 
- 
+1. Baixar o arquivo fonte e abrir no VS code
+2. Abrir a pasta app_utils e rodar o arquivo conn_db.py
 
 
 ## 🎥 Video Demonstrativo
