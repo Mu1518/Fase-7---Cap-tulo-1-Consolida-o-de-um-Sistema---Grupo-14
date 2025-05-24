@@ -33,12 +33,19 @@ Resumo do Projeto – Fase 7: Consolidação de um Sistema de Gestão para o Agr
 O projeto visa consolidar um sistema completo de gestão para o agronegócio, integrando os serviços desenvolvidos nas Fases 1 a 6 em uma única aplicação Python, operável via dashboard ou terminal. O sistema também pode ser adaptado para outros setores, bastando ajustar os dados inseridos.
 
 Resumo das Fases:
+
 F1 - Base de Dados Inicial: Cálculos de área e manejo de insumos com integração a uma API meteorológica e análise estatística em R
+
 F2 - Banco de Dados Estruturado: Criação de um banco de dados relacional (MER e DER) para organizar e integrar os dados utilizados na fase anterior
+
 F3 - IoT e Automação: Sistema com ESP32 e sensores para irrigação inteligente, conectado ao banco de dados.
+
 F4 - Dashboard com Data Science: Dashboard interativo com Machine Learning, com visualizações em tempo real via Streamlit e display físico.
+
 F5 - Cloud & Segurança: Sistema de Alerta com hospedagem na AWS com aplicação de normas ISO para segurança e escalabilidade da infraestrutura.
+
 F6 - Visão Computacional: Criação de um sistema de monitoramento que identifica drones e tratores, sendo assim é possivel saber sua localização e que está fazendo.
+
 F7 -  Integração Final: Reunir todos os módulos em uma pasta unificada, permitindo executar cada fase por botões.
 
 
