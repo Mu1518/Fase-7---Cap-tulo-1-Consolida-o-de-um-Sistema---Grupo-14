@@ -10,7 +10,7 @@
 
 ![redeneural](https://github.com/Mu1518/Fase-7---Cap-tulo-1-Consolida-o-de-um-Sistema---Grupo-14/blob/main/assets/Capa%20-%20Cap1(F7).png)
 
-## Nome do grupo - Grupo 28
+## Nome do grupo - Grupo 14
 
 ## 👨‍🎓 Integrantes: 
 - <a href="https://www.linkedin.com/in/iolanda-helena-fabbrini-manzali-de-oliveira-14ab8ab0">Iolanda Helena Fabbrini Manzali de Oliveira</a>
@@ -25,10 +25,22 @@
 - <a href="https://www.linkedin.com/company/inova-fusca">Andre Godoi Chaviato</a>
 
 ## 🗃️ Sobre o Projeto
+Este projeto visa consolidar todo conhecimento estudado durante esse 1 ano do cruso, deste modo nesse projeto desenvolvemos um sistema completo de gestão para o agronegócio, integrando os serviços desenvolvidos ao longo deste ano em uma uníca aplicação Python, operável via dashboard ou terminal. Lembrando que todos os projetos foram módificados visando uma melhor integração das fases, possibilitando maior compatibilidade entre as plicações.
+O sistema conta com:
 
-Este projeto visa explorar a aplicação prática de técnicas de visão computacional para a FarmTech Solutions, inicialmente focando na detecção de objetos personalizados utilizando a arquitetura YOLO. Adicionalmente, o projeto realiza uma análise comparativa com abordagens alternativas, como a YOLO original e uma CNN treinada do zero para classificação de imagens, avaliando seus desempenhos em diferentes aspectos. 
+Resumo do Projeto – Fase 7: Consolidação de um Sistema de Gestão para o Agronegócio
 
-O objetivo é demonstrar o potencial e as nuances de diferentes soluções de visão computacional em cenários práticos.
+O projeto visa consolidar um sistema completo de gestão para o agronegócio, integrando os serviços desenvolvidos nas Fases 1 a 6 em uma única aplicação Python, operável via dashboard ou terminal. O sistema também pode ser adaptado para outros setores, bastando ajustar os dados inseridos.
+
+Resumo das Fases:
+F1 - Base de Dados Inicial: Cálculos de área e manejo de insumos com integração a uma API meteorológica e análise estatística em R
+F2 - Banco de Dados Estruturado: Criação de um banco de dados relacional (MER e DER) para organizar e integrar os dados utilizados na fase anterior
+F3 - IoT e Automação: Sistema com ESP32 e sensores para irrigação inteligente, conectado ao banco de dados.
+F4 - Dashboard com Data Science: Dashboard interativo com Machine Learning, com visualizações em tempo real via Streamlit e display físico.
+F5 - Cloud & Segurança: Sistema de Alerta com hospedagem na AWS com aplicação de normas ISO para segurança e escalabilidade da infraestrutura.
+F6 - Visão Computacional: Criação de um sistema de monitoramento que identifica drones e tratores, sendo assim é possivel saber sua localização e que está fazendo.
+F7 -  Integração Final: Reunir todos os módulos em uma pasta unificada, permitindo executar cada fase por botões.
+
 
 ## 📁 Estrutura de pastas
 
@@ -39,9 +51,9 @@ O objetivo é demonstrar o potencial e as nuances de diferentes soluções de vi
  ## 💻 Tecnologias utilizadas
  
 [![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)](#)
-[![Google Colab](https://img.shields.io/badge/Google%20Colab-%23F9A825.svg?style=for-the-badge&logo=googlecolab&logoColor=white)](#)
-![YOLOv5](https://img.shields.io/badge/YOLO-v5-ffcc00?style=for-the-badge)
 ![YOLOv12](https://img.shields.io/badge/YOLO-v12-90ee90?style=for-the-badge&labelColor=000000)
+stremlit
+oracle
 
 
 
@@ -49,57 +61,11 @@ O objetivo é demonstrar o potencial e as nuances de diferentes soluções de vi
 
 ## 📜 Descrição
 
-Esta entrega foca na construção de  criação de um  um modelo funcional  de visão computacional para a FarmTech Solutions utilizando a arquitetura YOLOv5 para a detecção personalizada de objetos de um dataset devidamente rotulados, treinados, validados e testados. 
- 
+
+
 ## 🔧 Como executar o Projeto
 
-  1. Acessar o notebook atraves do link [Notebook_yolov12](https://colab.research.google.com/drive/1H_kKbdGa4h-0ZwlKC4BMwtZSMGpK1G5-?usp=sharing)
-   
-Observação: Link do Google Colab para acesso a leitura do notebook
-  
-  2. Selecione no campo 'Ambiente de execução" como deseja executar o programa
-     
-![Ambiente](assets/ambi_execucao.png)
-     
-  3. Visualize os resultados do treinamento, incluindo amostras de 8 imagens por época com os respectivos recortes e precisão.
-     
-  4. Analise a performance do modelo por época, comparando as métricas mAP50 e mAP50-95 para identificar a melhor configuração.
-     
-  5. Realize a análise do código e verifique suas conclusões e comparações.
-       
-# ENTREGÁVEL 2
-
-### 📜 Descrição
-
-A Entrega 2 desenvolvimento de dois sistemas de detecção de objetos distintos, ambos fundamentados na base de dados estabelecida na Entrega 1. O primeiro sistema consiste na implementação de um modelo de visão computacional utilizando a arquitetura YOLOv5. Será desenvolvida uma Rede Neural Convolucional (CNN) customizada, treinada igualmente com o conjunto de dados da etapa anterior. Posteriormente análisar detalhadamente os resultados obtidos por ambas as arquiteturas (YOLOv5 e CNN) em relação ao desempenho apresentado na Entrega 1.
  
-## 🔧 Como executar o Projeto
-
-### Yolo V5s
-
-  1. Acessar o notebook atraves do link [Notebook_yolov5](https://colab.research.google.com/drive/120g7qoAFt2sa-KCyej0DQ11uGFxjksii?usp=sharing)
-   
-     Observação: Link do Google Colab para acesso a leitura do notebook
-  
-  2. Selecione no campo 'Ambiente de execução" como deseja executar o programa, conforme mostrado na seção "como executar o projeto" do entregável 1.
-     
-  3. Visualize os resultados do treinamento, incluindo amostras de 8 imagens por época com os respectivos recortes e precisão.
-     
-  4. Analise a performance do modelo por época, comparando as métricas mAP50 e mAP50-95 para identificar a melhor configuração.
-     
-  5. Realize a análise do código e verifique suas conclusões e comparações.
-
-### CNNs
-
- * Acessar o notebook através do link [notebook_cnn](https://colab.research.google.com/drive/1tSQYOzSsNazYZnlwf8RVcLsDN0feX3A_?usp=sharing)
-
- * Selecione no campo “Ambiente de execução” como deseja executar o programa, conforme mostrado na seção “como executar o projeto” do entregável 1.
-
- * Execute o treinamento da CNN e visualize a acurácia do modelo, época a época, nos dados de treino e de validação.
-
- * Visualize o desempenho geral do modelo baseado na acurácia e na função de perda (loss)
-
- * Visualize a predições realizadas pelo modelo em 8 imagens de teste
 
 
 ## 🎥 Video Demonstrativo
