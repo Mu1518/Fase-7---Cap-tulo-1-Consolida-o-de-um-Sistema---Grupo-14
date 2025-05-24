@@ -52,7 +52,7 @@ F7 -  Integração Final: Reunir todos os módulos em uma pasta unificada, permi
 ## 📁 Estrutura de pastas
 
 - **/docs/entrega_1** - Arquivos .txt
-- **/src/entrega_1** - Código-fonte (.ipynb, .yaml)
+- **/src/entrega_1** - Código-fonte (.ipynb, .yaml) - (NOVO PROJETO_AGRI - COPIA)
 - **/assets/entrega_1** - Imagens de treino e teste, arquivos .csv
 
  ## 💻 Tecnologias utilizadas
