@@ -75,8 +75,8 @@ F7 -  Integração Final: Reunir todos os módulos em uma pasta unificada, permi
 
 ## 🎥 Video Demonstrativo
 
-[Link para vídeo demonstrativo no Youtube]([https://youtu.be/G_rgjv5tbgY](https://youtu.be/d6bp8IZm2NM))   
-
+![Link para vídeo demonstrativo no Youtube](https://youtu.be/G_rgjv5tbgY](https://youtu.be/d6bp8IZm2NM](https://youtu.be/d6bp8IZm2NM).   
+Caso não abra o hiperlink esse é o linke do vídeo - https://youtu.be/G_rgjv5tbgY](https://youtu.be/d6bp8IZm2NM](https://youtu.be/d6bp8IZm2NM
 ## 📋 Licença
 
 Este projeto está licenciado sob a licença MIT. Para mais detalhes, consulte o arquivo LICENSE no repositório.
